@@ -9,6 +9,7 @@ arch=('aarch64' 'armv7h')
 options=('!strip')
 url="https://developer.arm.com/downloads/-/mali-drivers/user-space"
 license=('custom')
+depends=('mali-kbase')
 source=('mali_G71_r16p0-01rel0_linux_wayland_1.tar.gz::https://developer.arm.com/-/media/Files/downloads/mali-drivers/user-space/HiKey%20960/mali_G71_r16p0-01rel0_linux_wayland_1.tar.gz?rev=97b69ac1ddbd45948999da2613920d94&revision=97b69ac1-ddbd-4594-8999-da2613920d94')
 md5sums=('5df76735014ff8152a462f5710167350')
 
